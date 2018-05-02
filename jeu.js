@@ -6,6 +6,7 @@
 
 const comm = require('commander')
 const inq = require('inquirer')
+let money = 0;
 
 
 comm
@@ -47,6 +48,8 @@ inq.prompt([
                     {
                         if(answers.q1 == 'Elizabeth') {
                                 console.log('Bonne réponse')
+                                money = money + 300
+                                console.log(money)
                             } else {
                                 console.log('Mauvaise réponse')
                             }
