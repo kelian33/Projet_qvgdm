@@ -4,8 +4,9 @@
   "description": "Projet NodeJS : Qui veut gagner de la thune ?!",
   "main": "jeu.js",
   "dependencies": {
+    "commander": "^2.15.1",
     "inquirer": "^5.2.0",
-    "commander": "^2.15.1"
+    "mysql": "^2.15.0"
   },
   "devDependencies": {},
   "scripts": {
